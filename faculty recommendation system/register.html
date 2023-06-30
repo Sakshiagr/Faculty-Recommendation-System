@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+    <style>
+        body{
+		background-color: #2b4865;
+	}
+	.container{
+		align-items: center;
+		align-content: center;
+		margin: 4% 16% 0% 35%;
+		background-color: #7EC8E3;
+		height: 420px;
+		width: 350px;
+		padding-top: 50px;
+		padding-left: 40px;
+	}
+    .button{
+		margin-left: 100px;
+		margin-top: 30px;
+		border-radius: 2px;
+		color: black;
+		height:25px;
+		width: 75px;
+		background-color: #e9dac1;
+	}
+    label{
+        color: aliceblue;
+        font-size: large;
+       
+    }
+    .button{
+		margin-left: 50px;
+		margin-top: 30px;
+		border-radius: 5px;
+		color: black;
+		height:45px;
+		width: 100px;
+		background-color: #e9dac1;
+	}
+    .a{
+		margin-top: 10px;
+        margin-bottom: 10px;
+		border-radius: 10px;
+		height: 30px;
+		width: 200px;
+	}
+    </style>
+    <body background="img.webp">
+    <div class="container">
+    <form method="POST" action="register.php">
+    	<h2 align="center" margin-left="20px">Registration Form</h2>
+         <label for="n">Enter the user id :<br></label> 
+          <input type="text"  class="a"name="username" id="n"required> <br>
+          <label for="p1">Enter password you wanna choose : <br></label>
+          <input type="password"class="a" name="password" id="p1" required><br>
+         <label for="p2"> Re-Enter the password :<br></label>
+          <input type="password" class="a" name="repassword"id="p2" required><br>
+
+          <input type="submit" class="button" value="SUBMIT">
+    </form>
+    </div>
+</body>
+</html>

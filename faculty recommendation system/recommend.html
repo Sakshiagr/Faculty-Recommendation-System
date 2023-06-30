@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recommend</title>
+</head>
+
+    <style>
+        body{
+		background-color: #2b4865;
+
+	}
+    .form{
+        align-items: center;
+		align-content: center;
+		margin: 10% 25% 0% 40%;
+    }
+    label{
+        color: aliceblue;
+        font-size: large;
+       
+    }
+    .button{
+		margin-left: 50px;
+		margin-top: 30px;
+		border-radius: 5px;
+		color: black;
+		height:45px;
+		width: 100px;
+		background-color: #e9dac1;
+	}
+    .a{
+		margin-top: 10px;
+        margin-bottom: 10px;
+		border-radius: 10px;
+		height: 30px;
+		width: 200px;
+	}
+    </style>
+    <body background="img.webp">
+    <div class="form">
+    <form method="POST" action="recommend.php">
+        <label for="c">Enter the course code : <br></label>
+        <input type="text" class="a" name ="coursecode" id="c"required><br>
+        <label for="slot">Enter the prefered slot : <br></label>
+        <input type="text"class="a" name="slot" name ="slot" id="slot"required><br>
+        <label for="cgpa"> Enter your cgpa :<br></label>
+        <input type="text" class="a" name = "cgpa" id="cgpa" required >
+        <br>
+        <label for="rating">Do you want to sort on basis of rating?</label>
+        <select name="rating" id="rating">
+          <option value="No">No</option>
+          <option value="Yes">Yes</option>
+        </select>
+        <br><br>
+        <input type="submit" class="button" value="SUBMIT">
+    </form>
+    </div>
+</body>
+</html>

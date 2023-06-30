@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login      
+    </title>
+</head>
+
+<style>
+
+	body{
+		background-color: #2b4865;
+		background-repeat: no-repeat;
+		
+	}
+	/*.logo{
+		height:2px;
+		max-width: 100% ;
+	}*/
+	#vitlogo{
+		height:150px;
+		width: 550px;
+		margin-left:31.3%;
+		margin-top:1%;
+		
+	}
+	.container{
+		align-items: center;
+		align-content: center;
+		margin-left: 35%;
+	}
+	.form{
+		margin-left: 22px;
+		margin-bottom: 0px;
+		align-items: center;
+		height:300px;
+		width:400px;
+        border-radius: 2px;
+        background-color: #7EC8E3;
+	}
+	.a{
+		margin-top: 8px;
+		border-radius: 10px;
+		height: 50px;
+		width: 300px;
+		margin-left: 45px;
+
+	}
+	.b{
+		height: 80px;
+		width: 400px;
+		margin-left:36.6%;
+		margin-top:2%;
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: 20px;
+		background-color: #7EC8E3;
+
+	}
+    .button{
+		margin-left: 160px;
+		margin-top: 40px;
+		border-radius: 2px;
+		color: black;
+		height:25px;
+		width: 75px;
+		background-color: #e9dac1;
+	}
+    #small{
+		margin-top:  -80px;
+		margin-left: 40px;
+		color: white;
+	}
+    a {
+		color: white;
+	}
+
+	</style>
+	<body background="img.webp">
+		<div >
+			<img id="vitlogo" src="./vit_logo.jpg">
+		</div>
+	<div class="b"><h2>VIT FACULTY RECOMMENDATION</h2></div>
+<div class="container">
+	<div class="form">
+		<form method="POST" action="login.php">
+			<div class="form-input">
+				<input class="a"type="text" name="username" placeholder="Enter the UserID"/>	
+			</div>
+			<div class="form-input">
+				<input  class="a"type="password" name="password" placeholder="Password"/>
+			</div>
+			<input  class="button" type="submit" type="submit" value="LOGIN" class="btn-login"/>
+		</form>
+	</div>
+	
+    <div id="small">
+        TO REGISTER AS A NEW USER CLICK HERE
+        <a href="register.html">Here</a>
+    </div>
+</div>
+</body>
+</html>
+
